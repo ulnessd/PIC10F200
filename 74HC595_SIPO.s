@@ -46,8 +46,6 @@ mainloop:
     movwf 0x13 ; stores number of bits to write in memory address 0x13
     movlw 0b11010110; data to write to shift register
     movwf 0x14; stores data to write in memory address 0x14
-    movlw 0 ; read bit index
-    movwf 0x15 ; stores read bit index memory address 0x15
     nop
 
     
