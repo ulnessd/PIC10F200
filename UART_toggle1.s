@@ -1,4 +1,4 @@
-; program to practice writing to a SIPO shift register: 74HC595
+; program to practice writing to toggle an output via a UART signal from a computer.
     
     
 PROCESSOR 10F200
