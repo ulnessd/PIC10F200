@@ -43,7 +43,7 @@ mainloop:
     nop
 turnon:
     bsf GP0
-    goto turnon
+    ; goto turnon
 blink:
     bsf GP0
     movlw 53 ; this gives a blink frequency of about 1 Hz ~153600/53^3
